@@ -1,1 +1,1 @@
-# mars-voting-authority-client
+# mars-voting-authority
