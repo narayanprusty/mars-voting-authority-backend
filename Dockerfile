@@ -18,4 +18,3 @@ RUN yarn install
 COPY ./src ./src
 
 CMD ["yarn", "start"]
-
