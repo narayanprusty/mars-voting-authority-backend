@@ -1,6 +1,7 @@
 {
   "name": "hlf-client",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "shelljs": "^0.8.3"
   },

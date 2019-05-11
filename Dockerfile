@@ -7,7 +7,7 @@ RUN mv  ./fabric-samples/bin/* /usr/local/bin
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && apt update && apt install -y yarn
 
-WORKDIR /home
+WORKDIR /home/app
 
 ENV GOPATH /opt/gopath
 ENV CORE_LOGGING_LEVEL info
