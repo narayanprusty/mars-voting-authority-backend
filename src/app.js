@@ -12,6 +12,7 @@ const username = process.env.CA_USERNAME
 const password = process.env.CA_PASSWORD
 const orderer = process.env.ORDERER_URL
 const peer = process.env.CORE_PEER_ADDRESS
+const cors = require('cors')
 
 let caEndPoint = null
 
